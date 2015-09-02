@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html lang="en" ng-app="salisTodo">
+<head>
+	<meta charset="UTF-8">
+	<!-- Optimize mobile view port-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Node/Angular Todo App</title>
+
+	<!--SCROLLS-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<!--SPELLS-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script><!-- load angular -->
+    <script src="core.js"></script>
+
+</head>
+<body ng-controller="mainController">
+
+	<div class="container">
+		<!-- Header and Todo count-->
+		<div class="jumbotron text-center">
+			<h1>I'm a Todo-aholic <span class="label label-info">{{ todos.length }}</span></h1>
+		</div>
+
+	</div>
+	
+</body>
+</html>
